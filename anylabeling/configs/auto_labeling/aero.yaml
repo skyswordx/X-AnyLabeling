@@ -1,0 +1,12 @@
+type: yolov5
+name: yolov5s-r20230520
+display_name: aero-week3-yolov5
+model_path: D:\X-AnyLabeling\models\aero_week3_test.onnx
+nms_threshold: 0.45
+confidence_threshold: 0.25
+classes:
+  - forward
+  - backward
+  - left
+  - right
+  - stop
